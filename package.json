@@ -1,0 +1,33 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "React App for practise purpose.",
+  "keywords": [
+    "react",
+    "js"
+  ],
+  "homepage": "https://github.com/himanu09/react-app#readme",
+  "bugs": {
+    "url": "https://github.com/himanu09/react-app/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/himanu09/react-app.git"
+  },
+  "license": "ISC",
+  "author": "Himanshu Rajore",
+  "type": "commonjs",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.1"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "browserslist": [
+    "last 2 versions"
+  ]
+}
