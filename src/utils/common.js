@@ -1,0 +1,1 @@
+export const LOGO_URL = "https://lelogama.go-jek.com/post_featured_image/fitur-review-makanan.jpg";

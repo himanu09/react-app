@@ -1,34 +1,3 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-
-const Tital =  () => {
-  return (
-    <a href="/">
-      <img
-        className="logo"
-        alt="logo"
-        src="https://lelogama.go-jek.com/post_featured_image/fitur-review-makanan.jpg"
-      />
-    </a>
-  );
-};
-
-const Header = () => {
-  return ( 
-    <div className="header">
-      <Tital />
-      <div className="nav-items">
-        <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Contact</li>
-          <li>Cart</li>
-        </ul>
-      </div>
-    </div>
-  );
-};
-
 const restaurantList = [
   {
     id: 1,
@@ -128,48 +97,4 @@ const restaurantList = [
   },
 ];
 
-
-
-
-const RestrourentCard = ({name, image, cuisine, rating}) => {
-  return (
-    <div className="card">
-      <img src={image} alt="Restaurant Image" />
-      <h2>{name}</h2>
-      <h3>{cuisine.join(", ")}</h3>
-      <h4>{rating}</h4>
-    </div>
-  );
-};
-
-const Body = () => {
-  return (
-    <div className="restaurant-list">
-      {restaurantList.map((restaurant) => {
-          return <RestrourentCard key={restaurant.id} {...restaurant} />;
-        })
-      }
-    </div>
-  );
-};
-
-const Footer = () => {
-  return(
-    <div>
-      <h1>Footer Component</h1>
-    </div>
-  )
-};
-
-const AppLayout = () => {
-  return (
-    <React.Fragment>
-      <Header />
-      <Body />
-      <Footer />
-    </React.Fragment>
-  );
-};
-
-const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<AppLayout />);
+export default restaurantList;
