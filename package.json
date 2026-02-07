@@ -18,10 +18,13 @@
   "author": "Himanshu Rajore",
   "type": "commonjs",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "jest"
   },
   "devDependencies": {
-    "parcel": "^2.16.1"
+    "parcel": "^2.16.1",
+    "prettier": "^3.7.4"
   },
   "dependencies": {
     "react": "^19.2.0",
