@@ -21,7 +21,7 @@ const restaurantList = [
     image:
       "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/xqwpuhgnsaf18te7zvtv",
     cuisine: ["Biryani", "Mughlai", "North Indian"],
-    rating: 4.3,
+    rating: 3.3,
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ const restaurantList = [
     image:
       "https://sultanspices.es/wp-content/uploads/2024/06/Desserts-and-sweets-category.png",
     cuisine: ["North Indian", "South Indian", "Snacks"],
-    rating: 4.0,
+    rating: 3.0,
   },
   {
     id: 5,
@@ -37,7 +37,7 @@ const restaurantList = [
     image:
       "https://www.thechunkychef.com/wp-content/uploads/2014/12/Spicy-Thai-Noodles-5.jpg",
     cuisine: ["Chinese", "Asian", "Thai"],
-    rating: 4.4,
+    rating: 3.4,
   },
   {
     id: 6,
@@ -69,7 +69,7 @@ const restaurantList = [
     image:
       "https://tse1.mm.bing.net/th/id/OIP.Xqq6Ku1NkLY6cGW0zChEqAHaHa?w=640&h=640&rs=1&pid=ImgDetMain&o=7&rm=3",
     cuisine: ["BBQ", "North Indian", "Grill"],
-    rating: 4.5,
+    rating: 1.5,
   },
   {
     id: 10,
@@ -77,7 +77,7 @@ const restaurantList = [
     image:
       "https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/89fccaa76f2f760e2742",
     cuisine: ["Biryani", "Mughlai", "Kebabs"],
-    rating: 4.4,
+    rating: 2.4,
   },
   {
     id: 11,
