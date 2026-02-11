@@ -38,6 +38,10 @@
 
 - Whenever a state variable updates or changes react rerenders the component.
 
+# State Variable
+- It is a variable who is having superpowers.
+- Whenever a state variable update, react trigger a reconciliation cycle(re-render the component)
+
 # Why react is faster
 # Reconciliation Algorith (React Fiber)
 - It introduce in recat 16
@@ -63,4 +67,14 @@
 - Auth Service, Order Service, Payment Service.
 - Each runs and deploys independently.
 
+# CORS (Cross Origin Resource Shareing)
+- This is the browser's job to verufy and checks that if the API request is from the same domain or not?
 
+# Optional Chaining
+- It means fetching data from a multiple nested divs.
+
+# Shimmer UI
+- The skeliton which is shown on the user scrren while loding the page data is known as Shimer UI. 
+
+# Conditioner Rendering
+- By this it mean rendering somting on the basis of conditions.
